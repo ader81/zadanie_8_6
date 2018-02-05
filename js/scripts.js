@@ -7,7 +7,11 @@ if (value <0) {
     console.log('wynik mniejszy od zera');
     alert ('wynik mniejszy od zera');
 }
-else {
+else if (value >0) {
     console.log('wynik większy od zera');
     alert ('wynik większy od zera');
+}
+else {
+    console.log('wynik jest równy 0');
+    alert ('wynik jest równy 0');
 }
